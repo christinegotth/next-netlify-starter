@@ -3,21 +3,33 @@
   border: 1px solid var(--color-alt);
   display: flex;
   flex-direction: column;
+  position: relative;
 
   img {
     width: 100%;
     height: auto;
-    position: relative;
   }
 
   span {
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
+    background-color: white;
+    color: black;
+    padding: 0.1rem 0.2rem;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
   }
 
   .icon {
-    width: 1rem;
-    height: 1rem;
+    width: 2rem;
+    height: 2rem;
+
+    &:first-child {
+      margin-right: 1rem;
+    }
   }
 }

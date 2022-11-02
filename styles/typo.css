@@ -4,6 +4,8 @@ body {
 
 h1 {
     font-size: 6em;
+    font-family: OCR A Std, monospace;
+    color: var(--color-alt);
 }
 
 h2 {

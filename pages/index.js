@@ -72,7 +72,7 @@ export default function Home() {
 
         @media only screen and (min-width: 992px) {
           .hero {
-            height: 80vh;
+            height: 90vh;
           }
         }
       `}</style>
