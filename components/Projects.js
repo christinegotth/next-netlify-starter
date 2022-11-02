@@ -10,7 +10,7 @@ export default function Projects() {
         <div className={styles.grid}>
           <Project
             title="Programmieren mit der Maus"
-            imgsrc="/world.png"
+            imgsrc="/maus.jpeg"
             type="Code"
             group="group"
             groupname="Hacking.Studio"
