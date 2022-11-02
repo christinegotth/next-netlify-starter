@@ -1,0 +1,23 @@
+.project {
+  padding: 0.5rem;
+  border: 1px solid var(--color-alt);
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  span {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .icon {
+    width: 1rem;
+    height: 1rem;
+  }
+}

@@ -1,5 +1,6 @@
 :root {
   --color-main: #f3d5ff;
+  --color-alt: #D09CFF;
 }
 
 html,
@@ -9,11 +10,16 @@ body {
   background-color: black;
   color: var(--color-main);
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 * {
   box-sizing: border-box;
+}
+
+a {
+  color: var(--color-main);
+  text-decoration: none;
 }
 
 main {
@@ -30,4 +36,9 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.contentContainer {
+  width: 100%;
+  padding: 1rem;
 }

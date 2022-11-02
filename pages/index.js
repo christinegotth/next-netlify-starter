@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Footer from "@components/Footer";
+import Projects from "@components/Projects";
 
 export default function Home() {
   return (
@@ -15,14 +16,27 @@ export default function Home() {
         </div>
         <div className="navbar">
           <ul>
-            <li>who am i?</li>
-            <li>projects</li>
-            <li>contact</li>
+            <li>
+              <a href="#whoami">who am i?</a>
+            </li>
+            <li>
+              <a href="#projects">projects</a>
+            </li>
+            <li>
+              <a href="#contact">contact</a>
+            </li>
           </ul>
         </div>
-        <div className="whoami">
-          <p>I build web apps, communities and zines.</p>
+        <div className="whoami contentContainer" id="whoami">
+          <h2>who i am</h2>
+          <p>i am a self-taught software developer living in cologne.</p>
+          <p>
+            i give a fuck about accessability, communities, css, equality,
+            skillsharing, jamstack, drawing, 3-dimensional space, open source,
+            feminism and so much more.
+          </p>
         </div>
+        <Projects />
       </main>
 
       <Footer />
@@ -30,6 +44,8 @@ export default function Home() {
       <style jsx>{`
         .hero {
           text-align: end;
+          display: flex;
+          align-items: center;
         }
 
         .hero h1 {
@@ -39,6 +55,8 @@ export default function Home() {
         .navbar {
           width: 100%;
           display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
           border-top: 1px solid var(--color-main);
           border-bottom: 1px solid var(--color-main);
         }
@@ -49,7 +67,13 @@ export default function Home() {
         }
 
         .navbar ul li {
-          margin-right: 2em;
+          margin-right: 2rem;
+        }
+
+        @media only screen and (min-width: 992px) {
+          .hero {
+            height: 80vh;
+          }
         }
       `}</style>
     </div>
