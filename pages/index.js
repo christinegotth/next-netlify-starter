@@ -22,8 +22,8 @@ export default function Home() {
           <p>i am a self-taught software developer living in cologne.</p>
           <p>
             i give a fuck about accessability, communities, css, equality,
-            skillsharing, jamstack, three.js, open source, feminism and so much
-            more.
+            skillsharing, jamstack, three.js, open source, flexbox, feminism and
+            so much more.
           </p>
         </div>
         <Projects />

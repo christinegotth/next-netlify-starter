@@ -52,7 +52,7 @@ export default function Projects() {
           />
           <Project
             title="Collaboratory"
-            imgsrc="/github.png"
+            imgsrc="/collaboratory.png"
             type="Code"
             group="group"
             groupname="Büro für Brauchbarkeit"
@@ -60,7 +60,7 @@ export default function Projects() {
           />
           <Project
             title="Videonale X"
-            imgsrc="/github.png"
+            imgsrc="/videonale.png"
             type="Code"
             group="group"
             groupname="Büro für Brauchbarkeit"

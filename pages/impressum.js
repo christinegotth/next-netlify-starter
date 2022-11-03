@@ -17,23 +17,19 @@ export default function Home() {
         <p>
           Christine Gotthardt
           <br />
-          KalkSpace e.V.
+          Am Kohlenkämpchen 20
           <br />
-          Olpener Str. 33
-          <br />
-          51103 Köln
+          45133 Essen
         </p>
         <h3>Kontakt: </h3>
-        <p>Telefon: 0221-98653919 </p>
+        <p>Mail: christinegotth [ @ ] posteo . de</p>
         <p>Bei redaktionellen Inhalten: Verantwortlich nach § 55 Abs.2 RStV</p>
         <p>
           Christine Gotthardt
           <br />
-          KalkSpace e.V.
+          Am Kohlenkämpchen 20
           <br />
-          Olpener Str. 33
-          <br />
-          51103 Köln
+          45133 Essen
         </p>
       </main>
 
