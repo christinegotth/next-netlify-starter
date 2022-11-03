@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <div className="contentContainer" id="projects">
+      <div className="contentContainer" id="contact">
         <h2>contact</h2>
         <p>let's talk about the weather.</p>
         <p>
