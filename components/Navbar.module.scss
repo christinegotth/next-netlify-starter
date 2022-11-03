@@ -1,0 +1,17 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 1px solid var(--color-main);
+  border-bottom: 1px solid var(--color-main);
+
+  ul {
+    list-style-type: none;
+    display: flex;
+
+    li {
+      margin-right: 2rem;
+    }
+  }
+}
