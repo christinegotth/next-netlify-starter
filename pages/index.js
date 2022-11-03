@@ -18,7 +18,7 @@ export default function Home() {
         <Navbar />
         <div className="whoami contentContainer" id="whoami">
           <h2>who i am</h2>
-          <p>my name is christine gotthardt.</p>
+          <p>hi. my name is christine gotthardt.</p>
           <p>i am a self-taught software developer living in cologne.</p>
           <p>
             i give a fuck about communities, accessability, css, equality,
