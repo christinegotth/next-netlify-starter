@@ -1,5 +1,5 @@
-import "@styles/globals.css";
-import "@styles/typo.css";
+import "@styles/globals.scss";
+import "@styles/typo.scss";
 
 function Application({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -6,15 +6,16 @@ export default function Projects() {
     <>
       <div className="contentContainer" id="projects">
         <h2>what i've done</h2>
-        <p>this is a small selection of projects that I'm proud of.</p>
+        <p>this is a small selection of projects that i've done so far.</p>
+        <p>more to come.</p>
         <div className={styles.grid}>
           <Project
             title="Programmieren mit der Maus"
             imgsrc="/maus.jpeg"
             type="Code"
             group="group"
-            groupname="Hacking.Studio"
-            gitsrc="https://programmieren.wdrmaus.de"
+            groupname="WDR Hacking.Studio"
+            gitsrc="https://github.com/wdr-data/code4maus"
             websrc="https://programmieren.wdrmaus.de"
           />
           <Project
@@ -22,28 +23,28 @@ export default function Projects() {
             imgsrc=""
             type="Code | Design"
             group="solo"
-            websrc="https://programmieren.wdrmaus.de"
+            websrc="https://www.lotta-magazin.de/"
           />
           <Project
             title="Data Starter"
             imgsrc="/github.png"
             type="Code | Design Systems"
             group="group"
-            groupname="Hacking.Studio"
-            gitsrc="https://programmieren.wdrmaus.de"
+            groupname="WDR Hacking.Studio"
+            gitsrc="https://github.com/wdr-data/starter"
           />
           <Project
             title="KalkSpace"
-            imgsrc="/github.png"
-            type="Community"
+            imgsrc="/kalkspace.png"
+            type="Community | Code | Design"
             group="group"
             groupname="KalkSpace e.V."
             websrc="https://kalk.space"
-            gitsrc="https://programmieren.wdrmaus.de"
+            gitsrc="https://github.com/kalkspace"
           />
           <Project
             title="FLINTA und Computer Kram"
-            imgsrc="/github.png"
+            imgsrc="/fuck.png"
             type="Community"
             group="group"
             groupname="Tech Collective"
@@ -55,7 +56,7 @@ export default function Projects() {
             type="Code"
             group="group"
             groupname="Büro für Brauchbarkeit"
-            websrc="https://fuckcologne.de"
+            websrc="https://collaboratory-lenbachhaus.de/de"
           />
           <Project
             title="Videonale X"
@@ -63,7 +64,7 @@ export default function Projects() {
             type="Code"
             group="group"
             groupname="Büro für Brauchbarkeit"
-            websrc="https://fuckcologne.de"
+            websrc="https://x.videonale.org"
           />
         </div>
       </div>
