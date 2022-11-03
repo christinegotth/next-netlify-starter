@@ -1,23 +1,31 @@
 body {
-    font-size: 16px;
+  font-size: 16px;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 
 h1 {
-    font-size: 6em;
-    font-family: OCR A Std, monospace;
-    color: var(--color-alt);
+  font-size: 6em;
+  font-family: OCR A Std, monospace;
+  color: var(--color-alt);
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 
 h2 {
-    font-size: 2rem;
+  font-size: 2rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 
 h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
 }
 
 @media only screen and (min-width: 992px) {
-    h1 {
-        font-size: 8em;
-    }
+  h1 {
+    font-size: 8em;
   }
+}
