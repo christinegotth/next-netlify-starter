@@ -21,9 +21,9 @@ export default function Home() {
           <p>my name is christine gotthardt.</p>
           <p>i am a self-taught software developer living in cologne.</p>
           <p>
-            i give a fuck about accessability, communities, css, equality,
-            skillsharing, jamstack, three.js, open source, flexbox, feminism and
-            so much more.
+            i give a fuck about communities, accessability, css, equality,
+            skillsharing, jamstack, three.js, open source, flexbox,
+            intersectional feminism and so much more.
           </p>
         </div>
         <Projects />
