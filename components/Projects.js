@@ -18,13 +18,13 @@ export default function Projects() {
             gitsrc="https://github.com/wdr-data/code4maus"
             websrc="https://programmieren.wdrmaus.de"
           />
-          <Project
+          {/* <Project
             title="Lotta Magazin Relaunch"
             imgsrc=""
             type="Code | Design"
             group="solo"
             websrc="https://www.lotta-magazin.de/"
-          />
+          /> */}
           <Project
             title="Data Starter"
             imgsrc="/github.png"
